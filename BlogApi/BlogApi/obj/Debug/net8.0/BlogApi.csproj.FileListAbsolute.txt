@@ -1,0 +1,47 @@
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\bin\Debug\net8.0\appsettings.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\bin\Debug\net8.0\BlogApi.staticwebassets.endpoints.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\bin\Debug\net8.0\BlogApi.exe
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\bin\Debug\net8.0\BlogApi.deps.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\bin\Debug\net8.0\BlogApi.runtimeconfig.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\bin\Debug\net8.0\BlogApi.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\bin\Debug\net8.0\BlogApi.pdb
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.csproj.AssemblyReference.cache
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.AssemblyInfoInputs.cache
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.AssemblyInfo.cs
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.csproj.CoreCompileInputs.cache
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.sourcelink.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\scopedcss\bundle\BlogApi.styles.css
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\staticwebassets\msbuild.BlogApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\staticwebassets\msbuild.BlogApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\staticwebassets\msbuild.build.BlogApi.props
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlogApi.props
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlogApi.props
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.csproj.Up2Date
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\refint\BlogApi.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.pdb
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.genruntimeconfig.cache
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\ref\BlogApi.dll
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.csproj.AssemblyReference.cache
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.AssemblyInfoInputs.cache
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.AssemblyInfo.cs
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.csproj.CoreCompileInputs.cache
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.sourcelink.json
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.dll
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\refint\BlogApi.dll
+C:\Users\Reallife\Documents\C# Optimus\CSharp-Assignments\BlogApi\BlogApi\obj\Debug\net8.0\BlogApi.pdb

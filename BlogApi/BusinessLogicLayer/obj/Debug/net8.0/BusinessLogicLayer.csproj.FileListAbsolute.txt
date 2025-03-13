@@ -1,0 +1,16 @@
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.deps.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.pdb
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\bin\Debug\net8.0\DomainLayer.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\bin\Debug\net8.0\DomainLayer.pdb
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.sourcelink.json
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\Business.450209FB.Up2Date
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\refint\BusinessLogicLayer.dll
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.pdb
+C:\Users\osekhahumhen.imhan\Desktop\C#\MyCSharp-Assignments\CSharp-Assignments\BlogApi\BusinessLogicLayer\obj\Debug\net8.0\ref\BusinessLogicLayer.dll

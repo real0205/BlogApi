@@ -1,0 +1,1108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\blogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\blogapi\\blogapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\blogapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\blogapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\blogapi\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\irepositories\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\irepositories\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\service\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\unitofworkservice\\unitofworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\unitofworkservice\\unitofworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\unitofworkservice\\iunitofworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\unitofworkservice\\iunitofworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\irepositories\\irole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\irepositories\\irole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\blogapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\blogapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\blogapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\blogapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\mappermodel\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\mappermodel\\categorymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\irepositories\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\irepositories\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\categorydto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\categorydto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\categorydto\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\categorydto\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\categorydto\\deletecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\categorydto\\deletecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\categorydto\\createrequestcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\categorydto\\createrequestcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\mappermodel\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\mappermodel\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\mappermodel\\rolemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\mappermodel\\rolemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\mappermodel\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\mappermodel\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\mappermodel\\blogmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\mappermodel\\blogmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\blogdto\\updateblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\blogdto\\updateblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\blogdto\\createrequestblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\blogdto\\createrequestblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\businesslogiclayer\\mappermodel\\authormapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D976F5-501D-43F6-BA29-F055D1E79FB7}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\mappermodel\\authormapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\userdto\\createrequestuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\userdto\\createrequestuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\userdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\userdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\commentdto\\updatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\commentdto\\updatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\commentdto\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\commentdto\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\authordto\\updateauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\authordto\\updateauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\authordto\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\authordto\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\blogdto\\deleteblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\blogdto\\deleteblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\blogdto\\blogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\blogdto\\blogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\userdto\\deleteuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\userdto\\deleteuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\commentdto\\deletecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\commentdto\\deletecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\authordto\\deleteauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\authordto\\deleteauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\commentdto\\createrequestcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\commentdto\\createrequestcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\domainlayer\\dto\\authordto\\createrequestauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C3F4D5-9CA0-4A4D-A5B6-06E7D9E1F7E1}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\authordto\\createrequestauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\blogapi\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD1D8B8-3E37-4A41-8A03-3D2C5963B504}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\irepositories\\iblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\irepositories\\iblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\irepositories\\iauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\irepositories\\iauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\reallife\\documents\\c# optimus\\csharp-assignments\\blogapi\\dataaccesslayer\\data\\irepositories\\icomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBD78ED-FCF8-4701-9401-9A8EDA631E82}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\irepositories\\icomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeToolTip": "DataAccessLayer\\UnitOfWork\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:31:32.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlogApi",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\BlogApi.csproj",
+              "RelativeDocumentMoniker": "BlogApi\\BlogApi.csproj",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\BlogApi.csproj",
+              "RelativeToolTip": "BlogApi\\BlogApi.csproj",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-12T21:11:36.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Program.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Program.cs",
+              "RelativeToolTip": "BlogApi\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T22:29:27.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\AuthorService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\AuthorService.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\AuthorService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\AuthorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:38:54.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:46:24.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:45:54.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "DataAccessLayer\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:31:07.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IUser.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\IRepositories\\IUser.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IUser.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\IRepositories\\IUser.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:40:13.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\UserService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:40:08.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\RoleService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\RoleService.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\RoleService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:39:57.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\CommentService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\CommentService.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\CommentService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\CommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:39:41.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\CategoryService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:39:25.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BlogService.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\BlogService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\BlogService.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\Service\\BlogService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\BlogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:39:04.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UnitOfWorkService.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\UnitOfWorkService\\UnitOfWorkService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\UnitOfWorkService\\UnitOfWorkService.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\UnitOfWorkService\\UnitOfWorkService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\UnitOfWorkService\\UnitOfWorkService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:49:54.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUnitOfWorkService.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\UnitOfWorkService\\IUnitOfWorkService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\UnitOfWorkService\\IUnitOfWorkService.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\UnitOfWorkService\\IUnitOfWorkService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\UnitOfWorkService\\IUnitOfWorkService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:50:11.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IRole.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IRole.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\IRepositories\\IRole.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IRole.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\IRepositories\\IRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:33:45.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:33:22.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\appsettings.json",
+              "RelativeDocumentMoniker": "BlogApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\appsettings.json",
+              "RelativeToolTip": "BlogApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T22:31:19.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:05:34.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\User.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:10:04.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Role.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:32:27.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:47:08.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T01:24:12.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:46:40.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoryMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\MapperModel\\CategoryMapper.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\MapperModel\\CategoryMapper.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\MapperModel\\CategoryMapper.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\MapperModel\\CategoryMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:49:41.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ICategory.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\ICategory.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\IRepositories\\ICategory.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\ICategory.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\IRepositories\\ICategory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:39:49.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Category.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:20:06.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:49:46.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CategoryDto\\UpdateCategoryDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\CategoryDto\\UpdateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CategoryDto\\UpdateCategoryDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\CategoryDto\\UpdateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:53:46.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DeleteCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CategoryDto\\DeleteCategoryDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\CategoryDto\\DeleteCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CategoryDto\\DeleteCategoryDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\CategoryDto\\DeleteCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:54:04.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateRequestCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CategoryDto\\CreateRequestCategoryDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\CategoryDto\\CreateRequestCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CategoryDto\\CreateRequestCategoryDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\CategoryDto\\CreateRequestCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:53:24.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CategoryDto\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\CategoryDto\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CategoryDto\\CategoryDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\CategoryDto\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:52:59.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\MapperModel\\UserMapper.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\MapperModel\\UserMapper.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\MapperModel\\UserMapper.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\MapperModel\\UserMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:49:53.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RoleMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\MapperModel\\RoleMapper.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\MapperModel\\RoleMapper.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\MapperModel\\RoleMapper.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\MapperModel\\RoleMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:50:40.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CommentMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\MapperModel\\CommentMapper.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\MapperModel\\CommentMapper.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\MapperModel\\CommentMapper.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\MapperModel\\CommentMapper.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:50:13.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BlogMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\MapperModel\\BlogMapper.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\MapperModel\\BlogMapper.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\MapperModel\\BlogMapper.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\MapperModel\\BlogMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:50:25.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UpdateBlogDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\BlogDto\\UpdateBlogDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\BlogDto\\UpdateBlogDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\BlogDto\\UpdateBlogDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\BlogDto\\UpdateBlogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:17:30.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Blog.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\Blog.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Blog.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\Blog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:19:43.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CreateRequestBlogDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\BlogDto\\CreateRequestBlogDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\BlogDto\\CreateRequestBlogDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\BlogDto\\CreateRequestBlogDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\BlogDto\\CreateRequestBlogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:16:49.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AuthorMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\MapperModel\\AuthorMapper.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\MapperModel\\AuthorMapper.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\MapperModel\\AuthorMapper.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\MapperModel\\AuthorMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:50:03.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CreateRequestUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\UserDto\\CreateRequestUserDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\UserDto\\CreateRequestUserDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\UserDto\\CreateRequestUserDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\UserDto\\CreateRequestUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:09:54.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\UserDto\\UserDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\UserDto\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\UserDto\\UserDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\UserDto\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:09:41.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\UserDto\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\UserDto\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\UserDto\\UpdateUserDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\UserDto\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:10:15.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateCommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CommentDto\\UpdateCommentDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\CommentDto\\UpdateCommentDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CommentDto\\UpdateCommentDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\CommentDto\\UpdateCommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:08:18.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CommentDto\\CommentDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\CommentDto\\CommentDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CommentDto\\CommentDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\CommentDto\\CommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:07:35.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UpdateAuthorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\AuthorDto\\UpdateAuthorDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\AuthorDto\\UpdateAuthorDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\AuthorDto\\UpdateAuthorDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\AuthorDto\\UpdateAuthorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:02:21.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\Author.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:19:27.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AuthorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\AuthorDto\\AuthorDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\AuthorDto\\AuthorDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\AuthorDto\\AuthorDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\AuthorDto\\AuthorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:01:23.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\BaseModel.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\BaseModel.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\Models\\BaseModel.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\BaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:18:29.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DeleteBlogDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\BlogDto\\DeleteBlogDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\BlogDto\\DeleteBlogDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\BlogDto\\DeleteBlogDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\BlogDto\\DeleteBlogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:17:04.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "BlogDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\BlogDto\\BlogDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\BlogDto\\BlogDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\BlogDto\\BlogDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\BlogDto\\BlogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:16:29.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DeleteUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\UserDto\\DeleteUserDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\UserDto\\DeleteUserDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\UserDto\\DeleteUserDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\UserDto\\DeleteUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:10:03.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DeleteCommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CommentDto\\DeleteCommentDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\CommentDto\\DeleteCommentDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CommentDto\\DeleteCommentDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\CommentDto\\DeleteCommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:08:06.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DeleteAuthorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\AuthorDto\\DeleteAuthorDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\AuthorDto\\DeleteAuthorDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\AuthorDto\\DeleteAuthorDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\AuthorDto\\DeleteAuthorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:01:57.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CreateRequestCommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CommentDto\\CreateRequestCommentDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\CommentDto\\CreateRequestCommentDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\CommentDto\\CreateRequestCommentDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\CommentDto\\CreateRequestCommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:07:50.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CreateRequestAuthorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\AuthorDto\\CreateRequestAuthorDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\AuthorDto\\CreateRequestAuthorDto.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DomainLayer\\DTO\\AuthorDto\\CreateRequestAuthorDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\AuthorDto\\CreateRequestAuthorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:01:44.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\BlogApi\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:46:54.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "IBlog.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IBlog.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\IRepositories\\IBlog.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IBlog.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\IRepositories\\IBlog.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwCoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:41:21.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "BlogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\BlogRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\BlogRepository.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\BlogRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\BlogRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwD8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:50:12.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IAuthor.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IAuthor.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\IRepositories\\IAuthor.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IAuthor.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\IRepositories\\IAuthor.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:40:47.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:51:11.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AuthorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\AuthorRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\AuthorRepository.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\AuthorRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\AuthorRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:49:59.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Repositories\\CommentRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\CommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:50:43.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IComment.cs",
+              "DocumentMoniker": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IComment.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\IRepositories\\IComment.cs",
+              "ToolTip": "C:\\Users\\Reallife\\Documents\\C# Optimus\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\Data\\IRepositories\\IComment.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\IRepositories\\IComment.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:41:40.237Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
