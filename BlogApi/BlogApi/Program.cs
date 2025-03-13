@@ -1,98 +1,75 @@
+using BlogApi.Backgrounds;
 using BusinessLogicLayer.IService;
+using BusinessLogicLayer.MapperMethods;
 using BusinessLogicLayer.Service;
+using BusinessLogicLayer.UnitOfWorkServicesFolder;
 using DataAccessLayer.Data;
-using DataAccessLayer.Data.IRepositories;
-using DataAccessLayer.Repositories;
-using DomainLayer.Models;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
+using DataAccessLayer.IRepositories;
+using DataAccessLayer.Repositries;
+using DataAccessLayer.UnitOfWorkFolder;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using BlogApi.DataAccessLayer.Data;
-using BlogApi.DomainLayer.Models;
-using BusinessLogicLayer.MapperModel;
-using DataAccessLayer.UnitOfWork;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.
-    AddDbContext<ApplicationDBContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
-builder.Services.AddScoped<IAuthor, AuthorRepository>();
-builder.Services.AddScoped<IBlog, BlogRepository>();
-builder.Services.AddScoped<ICategory, CategoryRepository>();
-builder.Services.AddScoped<IComment, CommentRepository>();
-
-builder.Services.AddScoped<IAuthorService, AuthorService>();
-builder.Services.AddScoped<IBlogService, BlogService>();
-builder.Services.AddScoped<ICategoryService, CategoryService>();
-builder.Services.AddScoped<ICommentService, CommentService>();
-
-builder.Services.AddScoped<AuthorMapper>();
-builder.Services.AddScoped<BlogMapper>();
-builder.Services.AddScoped<CategoryMapper>();
-builder.Services.AddScoped<CommentMapper>();
-
-builder.Services.Configure<IdentityOptions>(options =>
-{
-    // Default Lockout settings.
-    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-    options.Lockout.MaxFailedAccessAttempts = 5;
-    options.Lockout.AllowedForNewUsers = false;
-
-    // Default Password settings.
-    options.Password.RequireDigit = false;
-    options.Password.RequireLowercase = false;
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequireUppercase = false;
-    options.Password.RequiredLength = 6;
-    options.Password.RequiredUniqueChars = 1;
-
-}).AddIdentity<User, Role>()
-    .AddEntityFrameworkStores<ApplicationDBContext>()
-    .AddDefaultTokenProviders();
-
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IUnitOfWorkService, UnitOfWorkService>();
-
-// JWT Configuration
-var jwtSettings = builder.Configuration.GetSection("JwtSettings");
-var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["SecretKey"]));
 
 builder.Services.AddAuthentication(options =>
 {
+    // This indicates the authentication scheme that will be used by default when the app attempts to authenticate a user.
+    // Which authentication handler to use for verifying who the user is by default.
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    // This indicates the authentication scheme that will be used by default when the app encounters an authentication challenge.
+    // Which authentication handler to use for responding to failed authentication or authorization attempts.
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
-.AddJwtBearer(options =>
-{
-    options.RequireHttpsMetadata = false;
-    options.SaveToken = true;
-    options.TokenValidationParameters = new TokenValidationParameters
+    .AddJwtBearer(options =>
     {
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
-        ValidIssuer = jwtSettings["Issuer"],
-        ValidAudience = jwtSettings["Audience"],
-        IssuerSigningKey = key
-    };
-});
+        // Define token validation parameters to ensure tokens are valid and trustworthy
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true, // Ensure the token was issued by a trusted issuer
+            ValidIssuer = builder.Configuration["Jwt:Issuer"], // The expected issuer value from configuration
+            ValidateAudience = false, // Disable audience validation (can be enabled as needed)
+            ValidateLifetime = true, // Ensure the token has not expired
+            ValidateIssuerSigningKey = true, // Ensure the token's signing key is valid
+                                             // Define a custom IssuerSigningKeyResolver to dynamically retrieve signing keys from the JWKS endpoint
+            IssuerSigningKeyResolver = (token, securityToken, kid, parameters) =>
+            {
+                //Console.WriteLine($"Received Token: {token}");
+                //Console.WriteLine($"Token Issuer: {securityToken.Issuer}");
+                //Console.WriteLine($"Key ID: {kid}");
+                //Console.WriteLine($"Validate Lifetime: {parameters.ValidateLifetime}");
+                // Initialize an HttpClient instance for fetching the JWKS
+                var httpClient = new HttpClient();
+                // Synchronously fetch the JWKS (JSON Web Key Set) from the specified URL
+                var jwks = httpClient.GetStringAsync($"{builder.Configuration["Jwt:Issuer"]}/.well-known/jwks.json").Result;
+                // Parse the fetched JWKS into a JsonWebKeySet object
+                var keys = new JsonWebKeySet(jwks);
+                // Return the collection of JsonWebKey objects for token validation
+                return keys.Keys;
+            }
+        };
+    });
 
-// Add Authorization
-builder.Services.AddAuthorization();
+builder.Services.AddHostedService<KeyRotationService>();
+builder.Services.AddScoped<UserMapper>();
+builder.Services.AddScoped<CategoryMapper>();
+builder.Services.AddScoped<PostMapper>();
+builder.Services.AddScoped<LikeMapper>();
+builder.Services.AddScoped<CategoryMapper>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IUnitOfWorkService, UnitOfWorkService>();
+
 
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 
 var app = builder.Build();
 

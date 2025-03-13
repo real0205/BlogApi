@@ -1,84 +1,142 @@
-﻿using AutoMapper;
-using BlogApi.DomainLayer.Models;
-using BusinessLogicLayer.IService;
-using BusinessLogicLayer.MapperModel;
-using DomainLayer.DTO.UserDto;
+﻿using BusinessLogicLayer.IService;
+using BusinessLogicLayer.MapperMethods;
+using BusinessLogicLayer.UnitOfWorkServicesFolder;
+using DomainLayer.DTO;
+using DomainLayer.DTO.UserDTO;
+using DomainLayer.Models;
+using DomainLayer.Models.BlogModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class UserController : Controller
     {
-        IUserService _userService;
-        IMapper _mapper;
-        public UserController(IUserService userService, IMapper mapper)
-        {
-            _userService = userService;
-            _mapper = mapper;
-        }
+        IUnitOfWorkService _unitOfWork;
+        UserMapper _userMapper;
 
-        [HttpGet("GetUser")]
-        public IActionResult GetUser()
+        public UserController(IUnitOfWorkService unitOfWork, UserMapper userMapper)
         {
-            //return Ok(_userService.GetAllUser());
-
-            return Ok(_mapper.Map<IList<UserDto>>(_userService.GetAllUser()));
+            _userMapper = userMapper;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpGet]
-        public IActionResult GetById(string id)
+        [Authorize]
+        public IActionResult GetAllUsers()
         {
-            User? user = _userService.GetUser(id);
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+            return Ok(_unitOfWork.userService.GetAllUsers());
+        }
+
+        [HttpGet]
+        [Authorize]
+        public IActionResult GetById(int id)
+        {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+            User? user = _unitOfWork.userService.GetUser(id);
 
             if (user == null)
             {
                 return NotFound();
             }
 
-            //UserMapper userMapper = new UserMapper();
-            //UserDto userDto = userMapper.MapUserToUserDto(user);
 
-            //return Ok(user);
+            UserDto UserDto = _userMapper.MapUserToUserDto(user);
 
-            return Ok(_mapper.Map<UserDto>(user));
+            return Ok(UserDto);
         }
 
-        [HttpPost("CreateUser")]
-        public IActionResult CreateUser([FromBody] CreateRequestUserDto user)
+        [HttpGet]
+        [Authorize]
+        public IActionResult GetByRole(string role)
         {
-            UserMapper userMapper = new UserMapper();
-            User mappedUser = userMapper.MapUserRequestToUser(user);
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
 
-            User? createdUser = _userService.CreateUser(mappedUser, out string message);
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+            List<User> user = _unitOfWork.userService.GetUserByRole(role, out string message);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(user);
+        }
+
+        [HttpPost]
+        public IActionResult CreateUser([FromBody] CreateUserRequest user)
+        {
+            User mappedUser = _userMapper.MapCreateUserRequestToUser(user);
+
+
+            User? createdUser = _unitOfWork.userService.CreateUser(mappedUser, out string message);
+
             if (createdUser == null)
             {
                 return BadRequest(message);
             }
 
-            UserDto userDto = userMapper.MapUserToUserDto(createdUser);
-            return Ok(createdUser);
+            UserDto CreatedCategoryDto = _userMapper.MapUserToUserDto(createdUser);
+            return Ok(CreatedCategoryDto);
         }
 
-        [HttpPost("UpdateUser")]
-        public IActionResult UpdateUser([FromBody] UpdateUserDto user)
+        [Authorize]
+        [HttpPost]
+        public IActionResult UpdateUser([FromBody] UpdateUserRequest user)
         {
-            UserMapper userMapper = new UserMapper();
-            User resultOfmapping = userMapper.MapUpdateUserDtoToUser(user);
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
 
-            User? userUpdated = _userService.UpdateUser(resultOfmapping, out string message);
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+            User mappedUser = _userMapper.MapUpdateUserRequestToUser(user);
 
+            User? UserUpdated = _unitOfWork.userService.UpdateUser(mappedUser, out string message);
 
-
-            if (userUpdated == null)
+            if (UserUpdated is null)
             {
                 return BadRequest(message);
             }
 
-            UserDto userDto = userMapper.MapUserToUserDto(userUpdated);
+            UserDto UpdatedUserDto = _userMapper.MapUserToUserDto(UserUpdated);
 
-            return Ok(userDto);
+            return Ok(UpdatedUserDto);
+        }
+
+        [HttpDelete]
+        [Authorize]
+        public IActionResult DeleteUser([FromBody] DeleteUserRequest user)
+        {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+            User mappedUser = _userMapper.MapDeleteUserRequestToCategory(user);
+
+            bool UserDeleted = _unitOfWork.userService.DeleteUser(mappedUser.Id, out string message);
+
+            return Ok(UserDeleted);
+
         }
     }
 }
+

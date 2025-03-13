@@ -1,83 +1,130 @@
-﻿using AutoMapper;
-using BlogApi.DomainLayer.Models;
-using BusinessLogicLayer.IService;
-using BusinessLogicLayer.MapperModel;
-using DomainLayer.DTO.CategoryDto;
+﻿using BusinessLogicLayer.IService;
+using BusinessLogicLayer.MapperMethods;
 using Microsoft.AspNetCore.Mvc;
+using DomainLayer.DTO.CategoryDTO;
+using DataAccessLayer.UnitOfWorkFolder;
+using BusinessLogicLayer.UnitOfWorkServicesFolder;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BlogApi.Controllers
 {
-    [Route("api/[controller]")]    // [controller]/[action] can be used in place of ("GetCategory")
+    [Route("api/[controller]/[action]")]
     [ApiController]
-    public class CategoryController : ControllerBase
+    public class CategoryController : Controller
     {
-        ICategoryService _categoryService;
-        IMapper _mapper;
-        public CategoryController(ICategoryService categoryService, IMapper mapper)
-        {
-            _categoryService = categoryService;
-            _mapper = mapper;
-        }
+        //ICategorieService _categoryZService;
+        IUnitOfWorkService _unitOfWork;
+        CategoryMapper _categoryZMapper;
 
-        [HttpGet("GetCategory")]
-        public IActionResult GetCategory()
+        public CategoryController(CategoryMapper categoryZMapper, IUnitOfWorkService unitOfWork)
         {
-            //return Ok(_categoryService.GetAllCategory()); 
-            return Ok(_mapper.Map<IList<CategoryDto>>(_categoryService.GetAllCategory()));
+            //_categoryZService = categoryZService;
+            _unitOfWork = unitOfWork;
+            _categoryZMapper = categoryZMapper;
         }
 
         [HttpGet]
+        [Authorize]
+        public IActionResult GetCategory()
+        {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+            return Ok(_unitOfWork.categoryService.GetAllCategory());
+        }
+
+        [HttpGet]
+        [Authorize]
         public IActionResult GetById(int id)
         {
-            Category? category = _categoryService.GetCategory(id);
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+
+            DomainLayer.Models.BlogModels.Category? category = _unitOfWork.categoryService.GetCategory(id);
 
             if (category == null)
             {
                 return NotFound();
             }
 
-            //CategoryMapper categoryMapper = new CategoryMapper();
-            //CategoryDto categoryDto = categoryMapper.MapCategoryToCategoryDto(category);
 
-            //return Ok(category);
+           CategoryZDto categoryDto = _categoryZMapper.MapCategoryToCategoryZDto(category);
 
-            return Ok(_mapper.Map<CategoryDto>(category));
+            return Ok(categoryDto);
         }
 
-        [HttpPost("CreateCategory")]
-        public IActionResult CreateCategory([FromBody] CreateRequestCategoryDto category)
+        [HttpPost]
+        [Authorize]
+        public IActionResult CreateCategory([FromBody] CategoryZDto category)
         {
-            CategoryMapper categoryMapper = new CategoryMapper();
-            Category mappedCategory = categoryMapper.MapCategoryRequestToCategory(category);
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
 
-            Category? createdCategory = _categoryService.CreateCategory(mappedCategory, out string message);
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+
+            DomainLayer.Models.BlogModels.Category mappedCategory = _categoryZMapper.MapCategoryDtoToCategory(category);
+
+
+            DomainLayer.Models.BlogModels.Category? createdCategory = _unitOfWork.categoryService.CreateCategory(mappedCategory, out string message);
+
             if (createdCategory == null)
             {
                 return BadRequest(message);
             }
 
-            CategoryDto categoryDto = categoryMapper.MapCategoryToCategoryDto(createdCategory);
-            return Ok(createdCategory);
+            CategoryZDto CreatedCategoryDto = _categoryZMapper.MapCategoryToCategoryZDto(createdCategory);
+            return Ok(CreatedCategoryDto);
         }
 
-        [HttpPost("UpdateCategory")]
-        public IActionResult UpdateCategory([FromBody] UpdateCategoryDto category)
+        [HttpPost]
+        [Authorize]
+        public IActionResult UpdateCategory([FromBody] CategoryZDto category)
         {
-            CategoryMapper categoryMapper = new CategoryMapper();
-            Category resultOfmapping = categoryMapper.MapUpdateCategoryDtoToCategory(category);
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
 
-            Category? categoryUpdated = _categoryService.UpdateCategory(resultOfmapping, out string message);
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+            DomainLayer.Models.BlogModels.Category mappedCategory = _categoryZMapper.MapCategoryDtoToCategory(category);
 
+            DomainLayer.Models.BlogModels.Category? categoryUpdated = _unitOfWork.categoryService.UpdateCategory(mappedCategory, out string message);
 
-
-            if (categoryUpdated == null)
+            if (categoryUpdated is null)
             {
                 return BadRequest(message);
             }
 
-            CategoryDto categoryDto = categoryMapper.MapCategoryToCategoryDto(categoryUpdated);
+            CategoryZDto UpdatedCategoryDto = _categoryZMapper.MapCategoryToCategoryZDto(categoryUpdated);
 
-            return Ok(categoryDto);
+            return Ok(UpdatedCategoryDto);
         }
+
+        [HttpDelete]
+        [Authorize]
+        public IActionResult DeleteCategory([FromBody] DeleteRequestCategoryZDto category)
+        {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+            DomainLayer.Models.BlogModels.Category mappedCategory = _categoryZMapper.MapDeleteCategoryZRequestToCategoryZ(category);
+
+            bool categoryDeleted = _unitOfWork.categoryService.DeleteCategory(mappedCategory.Id, out string message);
+
+            return Ok(categoryDeleted);
+        }
+
     }
 }

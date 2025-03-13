@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainLayer.DTO.UserDto
+namespace DomainLayer.DTO.UserDTO
 {
     public class UserDto
     {
-        public string firstname { get; set; }
-        public string lastname { get; set; }
-        public DateOnly dob { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string  Role { get; set; }
+        public DateTime CreateAt { get; set; }
     }
 }

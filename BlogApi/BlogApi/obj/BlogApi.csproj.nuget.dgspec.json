@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BlogApi\\BlogApi.csproj": {}
+    "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\BlogApi\\BlogApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BlogApi\\BlogApi.csproj": {
+    "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\BlogApi\\BlogApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BlogApi\\BlogApi.csproj",
+        "projectUniqueName": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\BlogApi\\BlogApi.csproj",
         "projectName": "BlogApi",
-        "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BlogApi\\BlogApi.csproj",
+        "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\BlogApi\\BlogApi.csproj",
         "packagesPath": "C:\\Users\\osekhahumhen.imhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BlogApi\\obj\\",
+        "outputPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\BlogApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
-                "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+              "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\BusinessLogicLayer1\\BusinessLogicLayer.csproj": {
+                "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\BusinessLogicLayer1\\BusinessLogicLayer.csproj"
               },
-              "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DataAccessLayer1\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DataAccessLayer1\\DataAccessLayer.csproj"
               }
             }
           }
@@ -57,31 +57,35 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "AutoMapper": {
+            "BCrypt.Net-Next": {
               "target": "Package",
-              "version": "[14.0.0, )"
+              "version": "[4.0.3, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.13, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.13, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -111,14 +115,14 @@
         }
       }
     },
-    "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+    "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\BusinessLogicLayer1\\BusinessLogicLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "projectUniqueName": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\BusinessLogicLayer1\\BusinessLogicLayer.csproj",
         "projectName": "BusinessLogicLayer",
-        "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\BusinessLogicLayer1\\BusinessLogicLayer.csproj",
         "packagesPath": "C:\\Users\\osekhahumhen.imhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\BusinessLogicLayer\\obj\\",
+        "outputPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\BusinessLogicLayer1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -139,11 +143,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DataAccessLayer1\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DataAccessLayer1\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj": {
-                "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj"
+              "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DomainLayer\\DomainLayer.csproj"
               }
             }
           }
@@ -164,25 +168,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "AutoMapper": {
+            "BCrypt.Net-Next": {
               "target": "Package",
-              "version": "[14.0.0, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[4.0.3, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.13, )"
             }
           },
           "imports": [
@@ -205,14 +197,14 @@
         }
       }
     },
-    "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DataAccessLayer1\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DataAccessLayer1\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DataAccessLayer1\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\osekhahumhen.imhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DataAccessLayer1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -233,8 +225,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj": {
-                "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj"
+              "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DomainLayer\\DomainLayer.csproj"
               }
             }
           }
@@ -255,27 +247,27 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.13, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.11, )"
             }
           },
           "imports": [
@@ -298,14 +290,14 @@
         }
       }
     },
-    "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj": {
+    "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DomainLayer\\DomainLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj",
+        "projectUniqueName": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DomainLayer\\DomainLayer.csproj",
         "projectName": "DomainLayer",
-        "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\DomainLayer.csproj",
+        "projectPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DomainLayer\\DomainLayer.csproj",
         "packagesPath": "C:\\Users\\osekhahumhen.imhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\MyCSharp-Assignments\\CSharp-Assignments\\BlogApi\\DomainLayer\\obj\\",
+        "outputPath": "C:\\Users\\osekhahumhen.imhan\\Desktop\\C#\\BLOG_API\\DomainLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -344,17 +336,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.13, )"
             }
           },
           "imports": [

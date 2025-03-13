@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainLayer.DTO.CommentDto
+namespace DomainLayer.DTO.CommentDTO
 {
-    public class DeleteCommentDto
+    public class DeleteCommentDTo
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
     }
 }

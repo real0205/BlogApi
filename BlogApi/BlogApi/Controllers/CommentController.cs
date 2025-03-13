@@ -1,84 +1,117 @@
-﻿using AutoMapper;
-using BlogApi.DomainLayer.Models;
-using BusinessLogicLayer.IService;
-using BusinessLogicLayer.MapperModel;
-using DomainLayer.DTO.CommentDto;
+﻿using BusinessLogicLayer.IService;
+using BusinessLogicLayer.MapperMethods;
+using BusinessLogicLayer.UnitOfWorkServicesFolder;
+using DomainLayer.DTO.LikeDTO;
+using DomainLayer.Models.BlogModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Windows.Input;
 
 namespace BlogApi.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class CommentController : ControllerBase
+    public class CommentController : Controller
     {
-        ICommentService _commentService;
-        IMapper _mapper;
-        public CommentController(ICommentService commentService, IMapper mapper)
-        {
-            _commentService = commentService;
-            _mapper = mapper;
-        }
 
-        [HttpGet("GetComment")]
-        public IActionResult GetComment()
+        IUnitOfWorkService _unitOfWork;
+        public CommentController(IUnitOfWorkService unitOfWork)
         {
-            //return Ok(_commentService.GetAllComment()); // action result. That's why it contains ok
-
-            return Ok(_mapper.Map<IList<CommentDto>>(_commentService.GetAllComment()));
+            _unitOfWork = unitOfWork;
         }
 
         [HttpGet]
-        public IActionResult GetById(int id)
+        [Authorize]
+        public IActionResult GetAllComments()
         {
-            Comment? comment = _commentService.GetComment(id);
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
 
-            if (comment == null)
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+            return Ok(_unitOfWork.commentService.GetAllComment());
+        }
+
+        [HttpGet]
+        [Authorize]
+        public IActionResult GetCommentById(int Userid)
+        {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+            Comment? UserComments = _unitOfWork.commentService.GetCommentById(Userid);
+
+            if (UserComments == null)
             {
                 return NotFound();
             }
 
-            //CommentMapper commentMapper = new CommentMapper();
-            //CommentDto commentDto = commentMapper.MapCommentToCommentDto(comment);
-
-            //return Ok(comment);
-
-            return Ok(_mapper.Map<CommentDto>(comment));
+            return Ok(UserComments);
         }
 
-        [HttpPost("CreateComment")]
-        public IActionResult CreateComment([FromBody] CreateRequestCommentDto comment)
+        //Comment? CreateComment(Comment comment, out string message);
+        [HttpGet]
+        [Authorize]
+        public IActionResult CreateComment(Comment comment)
         {
-            CommentMapper commentMapper = new CommentMapper();
-            Comment mappedComment = commentMapper.MapCommentRequestToComment(comment);
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
 
-            Comment? createdComment = _commentService.CreateComment(mappedComment, out string message);
-            if (createdComment == null)
+            if (emailClaim == null)
             {
-                return BadRequest(message);
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+            Comment? CreateComment = _unitOfWork.commentService.CreateComment(comment, out string message);
+
+            if (CreateComment == null)
+            {
+                return NotFound();
             }
 
-            CommentDto commentDto = commentMapper.MapCommentToCommentDto(createdComment);
-            return Ok(createdComment);
+            return Ok(CreateComment);
         }
 
-        [HttpPost("UpdateComment")]
-        public IActionResult UpdateComment([FromBody] UpdateCommentDto comment)
+        ////bool DeleteComment(int id, out string message);
+        [HttpDelete]
+        [Authorize]
+        public IActionResult DeleteComment(int id)
         {
-            CommentMapper commentMapper = new CommentMapper();
-            Comment resultOfmapping = commentMapper.MapUpdateCommentDtoToComment(comment);
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
 
-            Comment? commentUpdated = _commentService.UpdateComment(resultOfmapping, out string message);
-
-
-
-            if (commentUpdated == null)
+            if (emailClaim == null)
             {
-                return BadRequest(message);
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+            //Like mappedLike = _likeMapper.MapLikeDtoToLike(LikeDetails);
+
+            bool PostDeleted = _unitOfWork.commentService.DeleteComment(id, out string message);
+
+            return Ok(PostDeleted);
+
+        }
+
+        //UpdateCategory(Comment comment, out string message);
+        [HttpGet]
+        [Authorize]
+        public IActionResult UpdateComment(Comment comment)
+        {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
+            //Like mappedLike = _likeMapper.MapLikeDtoToLike(LikeDetails);
+
+            Comment? CommentUpdate = _unitOfWork.commentService.UpdateComment(comment, out string message);
+
+            if (CommentUpdate == null)
+            {
+                return NotFound();
             }
 
-            CommentDto commentDto = commentMapper.MapCommentToCommentDto(commentUpdated);
-
-            return Ok(commentDto);
+            return Ok(CommentUpdate);
         }
     }
 }
